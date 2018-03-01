@@ -21,7 +21,6 @@ namespace Opgave_Variabler
         static void HelTal()
         {
 
-            //Heltal
             Int32 i = 10;
 
             i++; // ligge et tal til
@@ -48,6 +47,7 @@ namespace Opgave_Variabler
         static void enums()
         {
             FilTyper ft = FilTyper.csv;
+            Console.WriteLine(ft);
             Console.WriteLine((int)ft);
             Console.ReadKey();
 
@@ -56,6 +56,7 @@ namespace Opgave_Variabler
         static void Dato()
         {
             DateTime dt = DateTime.Now;
+
             Console.WriteLine(dt.ToString("ddMMyy"));
             Console.WriteLine(dt.ToString("ddd MM-yyyy"));
             Console.WriteLine(dt.ToString("dd MMM yyyy"));
