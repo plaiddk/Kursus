@@ -12,6 +12,7 @@ namespace Opgave10_HelloWorld
         {
 
             Console.WriteLine("Hello World!!");
+
             if(System.Diagnostics.Debugger.IsAttached)
             {
                 Console.WriteLine("Press any key");
