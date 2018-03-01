@@ -12,6 +12,13 @@ namespace Module03
         //Variabler kan kun tilgås indenfor scope eller under, aldrig den anden vej rundt - Et scrope er tuborgklammer. 
         static void Main(string[] args)
         {
+
+          
         }
+
+        
+
+
+
     }
 }
