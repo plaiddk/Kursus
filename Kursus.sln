@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgaver_string", "Opgaver_s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgaver_løkke", "Opgaver_løkke\Opgaver_løkke.csproj", "{B5D952EE-139A-403F-8FD5-FCFEAF1553C9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul5_Metoder", "Modul5_Metoder\Modul5_Metoder.csproj", "{B74A59AF-30CC-4A46-918A-A56D0D41C156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgaver_Metoder", "Opgaver_Metoder\Opgaver_Metoder.csproj", "{E02D5BF3-37E3-4143-AA5E-4DA34760CFE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{B5D952EE-139A-403F-8FD5-FCFEAF1553C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5D952EE-139A-403F-8FD5-FCFEAF1553C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5D952EE-139A-403F-8FD5-FCFEAF1553C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B74A59AF-30CC-4A46-918A-A56D0D41C156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B74A59AF-30CC-4A46-918A-A56D0D41C156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B74A59AF-30CC-4A46-918A-A56D0D41C156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B74A59AF-30CC-4A46-918A-A56D0D41C156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E02D5BF3-37E3-4143-AA5E-4DA34760CFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E02D5BF3-37E3-4143-AA5E-4DA34760CFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E02D5BF3-37E3-4143-AA5E-4DA34760CFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E02D5BF3-37E3-4143-AA5E-4DA34760CFE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
