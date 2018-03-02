@@ -12,17 +12,22 @@ namespace Opgaver_Array
         {
 
             int[] månedsLøn = { 1000, 2000, 49890, 5000, 1000 };
+           
 
             int printeVærdien;
             double liggeTalSammen = 0;
-           
+
+            //Sort af array
+            System.Array.Sort(månedsLøn);
+                       
 
             //Printe selve værdien
             for (int i = 0; i < månedsLøn.Length; i++)
             {
                 printeVærdien = månedsLøn[i];
+                
 
-                Console.WriteLine("Her printer jeg den aktuelle værdi");
+                Console.WriteLine("Her printer jeg den aktuelle værdi som er sorteret");
                 Console.WriteLine(printeVærdien);
 
                
