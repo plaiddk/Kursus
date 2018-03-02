@@ -32,8 +32,7 @@ namespace Opgaver_Metoder
 
             double res5 = m.gns(løn);
 
-            Console.WriteLine(res5);
-           
+            Console.WriteLine(res5);           
 
 
             //Overload
@@ -49,9 +48,7 @@ namespace Opgaver_Metoder
 
             int be5 = o.Sammekald(1, 2, 3);
             Console.WriteLine(be5);
-
-
-
+            
             //Beregn Array
             BeregnArray b = new BeregnArray(); //klasse
 
@@ -64,9 +61,7 @@ namespace Opgaver_Metoder
         }
 
 
-    }
-
-   
+    }  
 
     public struct Retur
     {

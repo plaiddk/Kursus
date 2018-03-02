@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul5_Metoder", "Modul5_Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgaver_Metoder", "Opgaver_Metoder\Opgaver_Metoder.csproj", "{E02D5BF3-37E3-4143-AA5E-4DA34760CFE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgaver_Klasser", "Opgaver_Klasser\Opgaver_Klasser.csproj", "{E86D1049-8E72-4523-A169-A3FED6514B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgaver_Terning", "Opgaver_Terning\Opgaver_Terning.csproj", "{DF750639-82DD-44F3-A5F0-F3D5E3DB8023}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{E02D5BF3-37E3-4143-AA5E-4DA34760CFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E02D5BF3-37E3-4143-AA5E-4DA34760CFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E02D5BF3-37E3-4143-AA5E-4DA34760CFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E86D1049-8E72-4523-A169-A3FED6514B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E86D1049-8E72-4523-A169-A3FED6514B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E86D1049-8E72-4523-A169-A3FED6514B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E86D1049-8E72-4523-A169-A3FED6514B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF750639-82DD-44F3-A5F0-F3D5E3DB8023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF750639-82DD-44F3-A5F0-F3D5E3DB8023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF750639-82DD-44F3-A5F0-F3D5E3DB8023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF750639-82DD-44F3-A5F0-F3D5E3DB8023}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
