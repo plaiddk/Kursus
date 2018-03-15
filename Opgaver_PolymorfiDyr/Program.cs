@@ -41,7 +41,7 @@ namespace Opgaver_PolymorfiDyr
             Console.WriteLine("Jeg er et dyr og hedder; " + this.navn);
         }
 
-        public static Dyr TilfældigtDyr()
+        public static  Dyr  TilfældigtDyr()
         {
             string sti = @"X:\dyrenavne.txt";
             string[] navne = System.IO.File.ReadAllLines(sti);

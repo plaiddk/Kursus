@@ -1,6 +1,6 @@
 using System;
 
-namespace Opgaver_NedarvningTerning
+namespace Opgaver_PloymorfiTerning
 {
     class Program
     {
@@ -13,10 +13,29 @@ namespace Opgaver_NedarvningTerning
             t.Ryst();
             t.Skriv();
 
-            //LudoTerning l = new LudoTerning(5);
-            //Console.WriteLine(l.ErGlobus());
+            Console.WriteLine();
+            Console.WriteLine();
+
+            LudoTerning lt = new LudoTerning(5);
+            lt.Skriv();
+            lt.Ryst();
+            lt.Skriv();
+
+            Console.WriteLine();
+            Console.WriteLine();
 
 
+            Terning[] lt1 = new Terning[5];
+            lt1[0] = new Terning();
+            lt1[1] = new Terning();
+            lt1[2] = new LudoTerning();
+            lt1[3] = new LudoTerning();
+            lt1[4] = new Terning();
+
+            foreach (var item in lt1)
+            {
+                item.Skriv();
+            }
 
 
             // Keep console window open when using the debugger (F5)
@@ -35,14 +54,17 @@ namespace Opgaver_NedarvningTerning
 
         public int Værdi
         {
-            get {
-                Console.WriteLine("Der aflæses en værdi" + this._værdi);
-                return _værdi; }
-            set {
+            get
+            {
+               
+                return _værdi;
+            }
+            set
+            {
                 ;
                 if (value < 0 || value > 6)
                 {
-                    
+
                     this._værdi = 1;
                     Console.WriteLine("Værdien er ugyldig og sættes derfor til " + this._værdi);
                 }
@@ -59,9 +81,9 @@ namespace Opgaver_NedarvningTerning
             this.Værdi = rnd.Next(1, 7);
         }
 
-        public void Skriv()
+        public virtual void Skriv()
         {
-            Console.WriteLine("["+this._værdi+"]");
+            Console.WriteLine("[" + this._værdi + "]");
         }
 
         public Terning()
@@ -73,13 +95,19 @@ namespace Opgaver_NedarvningTerning
         {
             this.Værdi = værdi;
         }
+
+        //Kører igennem denne første gang og kun 1 gang
+        //static Terning()
+        //{
+        //    rnd = new Random();
+        //}
     }
 
     public class LudoTerning : Terning
     {
         public bool ErGlobus()
         {
-            if(Værdi == 3)
+            if (Værdi == 3)
             {
                 return true;
             }
@@ -88,10 +116,10 @@ namespace Opgaver_NedarvningTerning
                 return false;
             }
         }
- 
+
         public bool ErStjerne()
         {
-            if(Værdi ==5)
+            if (Værdi == 5)
             { return true; }
             else
             { return false; }
@@ -103,9 +131,27 @@ namespace Opgaver_NedarvningTerning
         }
 
         public LudoTerning(int værdi) : base(værdi)
-        
+
         {
 
+        }
+
+        public override void Skriv()
+        {
+            Console.WriteLine("Dette er en ludoterning");
+            switch (this.Værdi)
+            {
+                case 3:
+                    Console.WriteLine("[G]");
+                    break;
+                case 5:
+                    Console.WriteLine("[*]");
+                    break;
+                default:
+                    Console.WriteLine("["+this.Værdi+"]");
+                    break;
+            }
+            Console.WriteLine("Dette er en ludoterning");
         }
     }
 }
