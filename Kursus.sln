@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgaver_ExtensionMethods", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgaver_OperatorOverload", "Opgaver_OperatorOverload\Opgaver_OperatorOverload.csproj", "{AAC0C8A0-5026-4575-A797-33AEA26BA228}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Opgaver_LINQ", "Opgaver_LINQ\Opgaver_LINQ.csproj", "{49DBFFDB-8234-474C-B102-7E7582A98D98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{AAC0C8A0-5026-4575-A797-33AEA26BA228}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAC0C8A0-5026-4575-A797-33AEA26BA228}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAC0C8A0-5026-4575-A797-33AEA26BA228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49DBFFDB-8234-474C-B102-7E7582A98D98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DBFFDB-8234-474C-B102-7E7582A98D98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DBFFDB-8234-474C-B102-7E7582A98D98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DBFFDB-8234-474C-B102-7E7582A98D98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
